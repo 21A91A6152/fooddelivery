@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      /* Add your styles here */
+      body {
+        font-family: 'Arial', sans-serif;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+      }
+      .header {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+      }
+      .content {
+        padding: 20px;
+      }
+      .footer {
+        background-color: #f4f4f4;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Order Delivered Successfully</h2>
+      </div>
+      <div class="content">
+         <p>Hello ${req.body.user},</p>
+         <p>🎉 Congratulations! Your delicious meal has been successfully delivered and is now ready for you to savor. We hope every bite brings you joy and satisfaction. Our chefs put their heart and soul into preparing your order, and we're thrilled to have served you today.  Thank you for choosing ${req.body.Company} for your culinary experience. If you have any feedback or need assistance, don't hesitate to reach out. Enjoy your meal! 🍽️"</p>
+        <p>Thank you for joining our community.</p>
+      </div>
+      <div class="footer">
+        <p>© 2024 manojkumar. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      /* Add your styles here */
+      body {
+        font-family: 'Arial', sans-serif;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+      }
+      .header {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+      }
+      .content {
+        padding: 20px;
+      }
+      .footer {
+        background-color: #f4f4f4;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Registration Successful</h2>
+      </div>
+      <div class="content">
+        <p>Hello ${username},</p>
+        <p>Congratulations! Your registration was successful.</p>
+        <p>Your account has been created with the following details:</p>
+        <ul>
+          <li>Email: ${email}</li>
+          <li>Phone no:${phone}</li>
+          <li>Company:${company}</li>
+        </ul>
+        <p>Thank you for joining our community.</p>
+      </div>
+      <div class="footer">
+        <p>© 2024 manojkumar. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html> -->
